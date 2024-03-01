@@ -95,7 +95,7 @@ int main() {
   char ch2 = 65;
   cout << "ch1=" << ch1 << endl;        // A
   cout << "ch2=" << ch2 << endl;        // A
-  cout << "ch1+1=" << ch1 + 1 << endl;  // 102 ?????
+  cout << "ch1+1=" << static_cast<int>(ch1 + 1) << endl;  // 102 ?????
   cout << "cast ch1+1=" << static_cast<char>(ch1 + 1) << std::endl;  // B
   ch1 = ch1 + 1;
   cout << "ch1 = ch1 + 1=" << ch1 << endl;  // B
