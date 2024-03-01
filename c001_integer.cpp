@@ -100,6 +100,6 @@ int main() {
   cout << "cast ch1+1=" << static_cast<char>(ch1 + 1) << std::endl;  // B
   ch1 = ch1 + 1;
   cout << "ch1 = ch1 + 1=" << ch1 << endl;  // B
-
+  
   return 0;
 }
